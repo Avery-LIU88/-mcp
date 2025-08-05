@@ -1,0 +1,12 @@
+这是在feature-branch分支上创建的文件。
+
+这个文件只存在于feature-branch分支，而在main分支上不存在。
+
+这展示了Git分支的隔离性，可以在不影响主分支的情况下进行开发工作。
+
+合并分支的命令：
+
+```
+git checkout main
+git merge feature-branch
+```
